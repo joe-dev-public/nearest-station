@@ -10,3 +10,6 @@ Goals:
 - Maybe allow a preferred terminus to be set
 - Provide a link so that the user can jump to maps for navigation
 - Maybe support postcode autocompletion
+- Show loading message while fetches are doing their thing
+- Decorate with mode-of-transport logos if available
+- Specify journey times (and distances) if available
