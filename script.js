@@ -16,6 +16,7 @@ function handleForm() {
   const myData = Object.fromEntries(myFormData);
 
   const postcode = myData["postcode"];
+  const radius = myData["radius"]; // metres, 200 is default
 
   let lat, lon;
 
@@ -35,7 +36,7 @@ function handleForm() {
     NaptanRailStation
   */
 
-  const radius = 1000; // metres, 200 is default
+  // const radius = 1000; 
   const stopTypes = 'NaptanMetroStation,NaptanRailStation';
 
   fetch(`https://api.postcodes.io/postcodes/${postcode}`)
