@@ -53,7 +53,7 @@ function handleForm() {
           return response.json();
         })
         .then((response) => {
-          console.log(response);
+          //console.log(response);
           const stopPointsArray = response["stopPoints"];
           let html = `Rail station(s) within ${radius} metres:<ul>`;
           for (const element of stopPointsArray) {
