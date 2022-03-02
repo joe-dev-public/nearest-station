@@ -2,7 +2,7 @@
 
 A little side project.
 
-Goals:
+Disorganised goals, notes, todo, etc:
 
 - By postcode or user's location, list the nearest rail/tube(/DLR/etc.) station(s)
 - Maybe provide a slider for distance
@@ -14,3 +14,4 @@ Goals:
 - Decorate with mode-of-transport logos if available
 - Specify journey times (and distances) if available
 - Consider London vs non-London(!)
+- Works (*well!*) outside London, despite using TfL API. Is using another API necessary? :P
