@@ -13,3 +13,4 @@ Goals:
 - Show loading message while fetches are doing their thing
 - Decorate with mode-of-transport logos if available
 - Specify journey times (and distances) if available
+- Consider London vs non-London(!)
