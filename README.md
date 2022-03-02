@@ -15,3 +15,4 @@ Disorganised goals, notes, todo, etc:
 - Specify journey times (and distances) if available
 - Consider London vs non-London(!)
 - Works (*well!*) outside London, despite using TfL API. Is using another API necessary? :P
+- Allow quick toggling of transport mode to be included/excluded (tube, rail, DLR, etc. -- grab these from TfL)
