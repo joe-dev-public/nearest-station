@@ -53,10 +53,13 @@ function handleForm() {
           return response.json();
         })
         .then((response) => {
+          console.log(response);
           const stopPointsArray = response["stopPoints"];
           let html = `Rail station(s) within ${radius} metres:<ul>`;
           for (const element of stopPointsArray) {
-            html += `<li>${element["commonName"]}</li>`;
+            const commonName = element["commonName"];
+            const distance = Math.round(element["distance"]);
+            html += `<li>${commonName} (~${distance}m away)</li>`;
           }
           html += '</ul>';
           myResultsElement.innerHTML = html;
